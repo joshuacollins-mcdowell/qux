@@ -1,0 +1,147 @@
+﻿@import './variables';
+
+/* UI Standardization */
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-demi-bold: 600;
+
+$color-dark: $qes-primary-grey-7;
+$color-light: $qes-primary-grey-6;
+$color-blue: $qes-primary-blue;
+
+
+@mixin header-xl {
+  color: $color-dark;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 38px;
+  font-weight: $font-weight-regular;
+}
+
+@mixin header-l {
+  color: $color-dark;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 32px;
+  font-weight: $font-weight-regular;
+}
+
+@mixin header-m {
+  color: $color-dark;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 24px;
+  font-weight: $font-weight-medium;
+}
+
+@mixin header-s {
+  color: $color-dark;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 18px;
+  font-weight: $font-weight-demi-bold;
+}
+
+@mixin label-m {
+  color: $color-light;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 16px;
+  font-weight: $font-weight-demi-bold;
+}
+
+@mixin label-s {
+  color: $color-light;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 14px;
+  font-weight: $font-weight-demi-bold;
+}
+
+@mixin label-tiny {
+  color: $color-light;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: $font-weight-demi-bold;
+}
+
+@mixin copy-text-l {
+  color: $color-dark;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 16px;
+  font-weight: $font-weight-medium;
+}
+
+@mixin copy-text-default {
+  color: $color-light;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 14px;
+  font-weight: $font-weight-medium;
+}
+
+@mixin copy-text-subtle {
+  color: $color-light;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: $font-weight-medium;
+}
+
+@mixin link-text-l {
+  color: $color-blue;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 16px;
+  font-weight: $font-weight-medium;
+  text-decoration: underline;
+}
+
+@mixin link-text-default {
+  color: $color-blue;
+  // font-family: "Avenir Next LT Pro", Calibri, sans-serif;
+  font-size: 14px;
+  font-weight: $font-weight-medium;
+  text-decoration: underline;
+}
+
+// And classes for instances where we just have an unclassed tag (p, h1, etc)
+.header-xl {
+  @include header-xl;
+}
+
+.header-l {
+  @include header-l;
+}
+
+.header-m {
+  @include header-m;
+}
+
+.header-s {
+  @include header-s;
+}
+
+.label-m {
+  @include label-m;
+}
+
+.label-s {
+  @include label-s;
+}
+
+.label-tiny {
+  @include label-tiny;
+}
+
+.copy-text-l {
+  @include copy-text-l;
+}
+
+.copy-text-default {
+  @include copy-text-default;
+}
+
+.copy-text-subtle {
+  @include copy-text-subtle;
+}
+
+.link-text-l {
+  @include link-text-l;
+}
+
+.link-text-default {
+  @include link-text-default;
+}

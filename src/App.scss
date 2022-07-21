@@ -1,0 +1,40 @@
+@import './typography';
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url('../fonts/AvenirNextLTPro/AvenirNextLTPro-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('../fonts/AvenirNextLTPro/AvenirNextLTPro-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('../fonts/AvenirNextLTPro/AvenirNextLTPro-Demi.otf');
+  font-weight: bold;
+}
+
+.header {
+  @include header-xl;
+  text-align: center;
+}
+
+.button-container {
+
+  h2 {
+    @include header-l;
+    text-align: center;
+  }
+
+  hr {
+    width: 25rem;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+}

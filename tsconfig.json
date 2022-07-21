@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "alwaysStrict": true,
+      "declaration": true,
+      "esModuleInterop": true,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "noEmitOnError": true,
+      "noImplicitAny": true,
+      "removeComments": false,
+      "rootDir": "src/",
+      "outDir": "./dist",
+      "sourceMap": true,
+      "target": "es2021"
+  },
+  "exclude": [
+      "dist",
+      "node_modules",
+  ]
+}

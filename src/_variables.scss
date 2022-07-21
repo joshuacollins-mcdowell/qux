@@ -1,0 +1,74 @@
+﻿
+
+/* UI Standardization Effort */
+/* Colors */
+// Accessible colors
+$qes-primary-blue: #056edf;
+$qes-primary-green: #008559;
+$qes-primary-orange: #b65404;
+$qes-primary-red: #cc3a52;
+
+$qes-primary-white: #ffffff;
+$qes-primary-grey-1: #fbfbff;
+$qes-primary-grey-2: #f9f9ff;
+$qes-primary-grey-3: #f2f2fc;
+$qes-primary-grey-4: #d3d3e9;
+$qes-primary-grey-5: #acacc5;
+$qes-primary-grey-6: #6e6e8b;
+$qes-primary-grey-7: #32323c;
+
+// Darkened colors, not listed in design guide but used
+$qes-primary-blue-dark: #0454a9;
+$qes-primary-red-dark: #a30620;
+$qes-primary-green-dark: #036242;
+// These are used for transitions on secondary buttons. The RGB values are equivalent to the primary hex values above.
+$qes-primary-blue-transparent: rgba(5, 110, 223, 0);
+$qes-primary-blue-half: rgba(5, 110, 223, 0.5);
+$qes-primary-blue-faded: rgba(5, 110, 223, 0.08);
+$qes-primary-red-transparent: rgba(204, 58, 82, 0);
+$qes-primary-red-faded: rgba(204, 58, 82, 0.08);
+
+
+// Brand colors
+$qes-secondary-green: #5dc98d;
+$qes-secondary-red: #de5d4a;
+$qes-secondary-blue: #77bffa;
+$qes-secondary-grey: #d2c8c6;
+
+// Tertiary colors, ordered dark to light
+// greys
+$qes-tertiary-grey-1: $qes-primary-grey-6; // faded jade
+$qes-tertiary-grey-2: $qes-primary-grey-5; // logan
+$qes-tertiary-grey-3: $qes-primary-grey-4; // blue haze
+$qes-tertiary-grey-4: $qes-primary-grey-3; // moon raker
+$qes-tertiary-grey-5: $qes-primary-grey-2; // titan white
+
+// greens
+$qes-tertiary-green-1: #00b979; // jade
+$qes-tertiary-green-2: #00cd87; // carribean green
+$qes-tertiary-green-3: #b2f0da; // magic mint
+$qes-tertiary-green-4: #ccf5e7; // white ice
+
+// reds
+$qes-tertiary-red-1: #da334e; // mandy
+$qes-tertiary-red-2: #f23957; // amaranth
+$qes-tertiary-red-3: #fbc3cc; // pink
+$qes-tertiary-red-4: #fcd7dd; // pig pink
+
+// oranges
+$qes-tertiary-orange-1: #e6914c; // porsche
+$qes-tertiary-orange-2: #ffa154; // texas rose
+$qes-tertiary-orange-3: #ffe2cb; // negroni
+$qes-tertiary-orange-4: #ffecdd; // seashell peach
+
+// yellows
+$qes-tertiary-yellow-1: #e6c14c; // ronchi
+$qes-tertiary-yellow-2: #ffd654; // mustard
+$qes-tertiary-yellow-3: #fff2cb; // egg white
+$qes-tertiary-yellow-4: #fff7dd; // varden
+
+// blues
+$qes-tertiary-blue-1: #4790e6; // cornflower blue
+$qes-tertiary-blue-2: #4fa0ff; // dodger blue
+$qes-tertiary-blue-3: #cae2ff; // zumthor
+$qes-tertiary-blue-4: #dcecff; // zumthor-1

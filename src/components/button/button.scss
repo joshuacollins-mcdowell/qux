@@ -1,0 +1,77 @@
+@import '../../typography';
+
+.button {
+  @include label-s;
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+
+  // Temporary padding
+  padding: 10px 40px;
+  
+  transition: background 0.3s ease, color 0.3s ease;
+  font-family: 'Avenir Next', 'Sans Serif';    
+}
+
+.primary {
+  background-color: #056EDF;
+  color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+  &:hover:not(.disabled) {
+    box-shadow: 0 2px 4.5px rgba(0,0,0,0.14), 0 2px 4px rgba(0,0,0,0.24);
+  }
+
+  &:hover {
+    background-color: #0454a9;
+    color: white;
+    text-decoration: none;
+  }
+
+  &.danger {
+    background-color: #CC3A52;
+
+    &:hover {
+      background-color: #a30620;
+    }
+  }
+
+  &.success {
+    background-color: #008559;
+
+    &:hover {
+      background-color: #036242
+    }
+  }
+
+  &.disabled {
+    background-color: #f2f2fc;
+    color: #6E6E8B;
+    cursor: not-allowed;
+  }
+}
+
+.secondary {
+  border: none;
+  color: #4FA0FF;
+  background-color: transparent;
+
+  &:hover:not(.disabled) {
+    background-color: #ebf4fd
+  }
+
+  &.danger {
+    color: #F23957;
+
+    &:hover {
+      background-color: #fbf0f2;
+    }
+  }
+
+  &.disabled {
+    color: #6E6E8B;
+    cursor: not-allowed;
+  }
+}
+
